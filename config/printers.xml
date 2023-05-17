@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<printers>
+    <a4Printer>PDF Writer - bioPDF</a4Printer>
+    <a4PrinterEnable>false</a4PrinterEnable>
+    <barPrinterEnable>false</barPrinterEnable>
+    <kitchenPrinterEnable>false</kitchenPrinterEnable>
+    <receiptPrinter>PDF Writer - bioPDF</receiptPrinter>
+    <receiptPrinterEnable>true</receiptPrinterEnable>
+    <reportPrinter>PDF Writer - bioPDF</reportPrinter>
+    <sonstigePrinter>PDF Writer - bioPDF</sonstigePrinter>
+</printers>

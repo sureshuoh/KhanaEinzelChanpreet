@@ -1,0 +1,332 @@
+20.04.23 10:38:42.312 EasyRemote: Autorisierung
+20.04.23 10:38:42.324 EasyRemote: EasyZVT Async
+20.04.23 10:38:46.962 EasyRemote: ZVTStart.exe wurde gestartet
+20.04.23 10:38:47.559 ------------------------------------------------------------------------------------
+20.04.23 10:38:47.559 Programmstart Live Standalone 3.1.4.5
+20.04.23 10:38:47.560 Programmpfad: C:\Users\Chanpreet\Workspace\Einzel-Master\EasyZVT.exe
+20.04.23 10:38:47.560 Eingabedatei: 
+20.04.23 10:38:47.560 Parameterstring: 
+20.04.23 10:38:47.561 Hostname:     DESKTOP-D9GALTQ
+20.04.23 10:38:47.561 Kasse-Nr.:    1
+20.04.23 10:38:47.562 COM:          LAN
+20.04.23 10:38:47.562 ComSpeed:     9600
+20.04.23 10:38:47.562 ComStop:      1
+20.04.23 10:38:47.563 IP:           192.168.0.133
+20.04.23 10:38:47.563 Port:         5577
+20.04.23 10:38:47.563 PortKasse:    4102
+20.04.23 10:38:47.564 Passwort:     000000
+20.04.23 10:38:47.564 Betrag:       1
+20.04.23 10:38:47.564 Cashback:     0
+20.04.23 10:38:47.565 PIN:          0
+20.04.23 10:38:47.565 Kassedruck:   1
+20.04.23 10:38:47.565 Funktion:     0
+20.04.23 10:38:47.566 Protokollpfad:C:\Users\Chanpreet\Workspace\Einzel-Master\protocol
+20.04.23 10:38:47.566 Ausgabepfad:  C:\Users\Chanpreet\Workspace\Einzel-Master\result
+20.04.23 10:38:47.567 Dialog:       1
+20.04.23 10:38:47.567 Typ:          0
+20.04.23 10:38:47.567 Abmelden:     0
+20.04.23 10:38:47.568 Lizenz:       
+20.04.23 10:38:47.568 Original:     1
+20.04.23 10:38:47.569 Diag:         1
+20.04.23 10:38:47.569 Alter:        0
+20.04.23 10:38:47.569 CCV:          
+20.04.23 10:38:47.570 Sperre:       0
+20.04.23 10:38:47.570 Sprache:      DE
+20.04.23 10:38:47.570 Währung:      EUR
+20.04.23 10:38:47.571 Flottenk.-Typ:1
+20.04.23 10:38:47.571 Tip:          0
+20.04.23 10:38:47.571 Trinkgeld:    0
+20.04.23 10:38:47.572 Freitext:     EasyRemote 3.0.6
+20.04.23 10:38:47.572 WWRef:        
+20.04.23 10:38:47.572 WWVerf:       0
+20.04.23 10:38:47.573 Secucard:     0
+20.04.23 10:38:47.573 Warenautomat: 0
+20.04.23 10:38:47.573 Verfahren:    0
+20.04.23 10:38:47.574 Breite:       0
+20.04.23 10:38:47.574 Reconnect:    5000
+20.04.23 10:38:47.574 ReadTimeout:  30
+20.04.23 10:38:47.594 Prüfe Internetverbindung 81.169.145.144
+20.04.23 10:38:47.628 Internet ok 32 ms
+20.04.23 10:38:47.659 ------- Connect async ------------
+20.04.23 10:38:47.683 Initialisiere Verbindung LAN/WLAN auf 192.168.0.133
+20.04.23 10:38:47.708 IP-Info lokal 192.168.0.173(255.255.255.0) Subnetz: 192.168.0.0.
+20.04.23 10:38:47.708 IP-Info Gerät 192.168.0.133(255.255.255.0) Subnetz: 192.168.0.0.
+20.04.23 10:38:47.843 Gerät im gleichen Subnetz. Prüfe MAC 192.168.0.133: 38-EF-E3-3B-A9-E0
+20.04.23 10:38:47.844 Ping 192.168.0.133
+20.04.23 10:38:47.863 Ping ok 17 ms
+20.04.23 10:38:47.864 Verbinde mit Timeout für IP Connect 20 s
+20.04.23 10:38:47.883 Connect erfolgt, prüfe Verbindungsstatus
+20.04.23 10:38:47.884 Terminal erkannt an IP 192.168.0.133 Port 5577
+20.04.23 10:38:47.898 ------- Anmeldung async -------
+20.04.23 10:38:47.922 Receive TCP Timeout 20 s
+20.04.23 10:38:48.378 Receive TCP Timeout 20 s
+20.04.23 10:38:48.391 Transport-Abschluss OK 06 0F erhalten
+20.04.23 10:38:48.424 Datenlänge: 16
+20.04.23 10:38:48.425 29 TID: 68270011
+20.04.23 10:38:48.426 49 Währung: 09 78
+20.04.23 10:38:48.439 0A Erlaubtes TLV-Tag: 06 D3 Blockdruck
+20.04.23 10:38:48.448 --------Statusabfrage sync--------
+20.04.23 10:38:48.448 Receive TCP Timeout 20 s
+20.04.23 10:38:48.614 Receive TCP Timeout 20 s
+20.04.23 10:38:48.657 Transport-Abschluss OK 06 0F erhalten
+20.04.23 10:38:48.658 LLLvar standard
+20.04.23 10:38:48.658 LLL varlen = 17
+20.04.23 10:38:48.659 Statusbyte: 00
+20.04.23 10:38:48.659 Status: BZT bereit
+20.04.23 10:38:48.659 BZT-SW-Version: 150635a M VOB REA
+20.04.23 10:38:48.660 Gerätetyp: unbekannt
+20.04.23 10:38:48.660 BZT bereit
+20.04.23 10:38:48.677 ----- Lizenzcheck -----------
+20.04.23 10:38:48.678 Test-Lizenz Betrag 1
+20.04.23 10:38:48.681 --------Autorisierung async--------
+20.04.23 10:38:48.691 Lizenzupdate online
+20.04.23 10:38:48.741 Autorisierung mit Betrag 0,01 EUR
+20.04.23 10:38:48.743 Receive TCP Timeout 20 s
+20.04.23 10:38:48.861 Receive TCP Timeout 180 s
+20.04.23 10:38:48.980 Lizenzupdate: OK
+20.04.23 10:38:49.447 Zwischenstatus: Karte einstecken
+20.04.23 10:38:49.448 Zwischenstatus TLV LetzterStatusText: Karte stecken 
+20.04.23 10:38:49.448 Receive TCP Timeout 180 s
+20.04.23 10:38:49.615 Zwischenstatus: Karte einstecken
+20.04.23 10:38:49.616 Zwischenstatus TLV LetzterStatusText: Karte stecken 
+20.04.23 10:38:49.617 Receive TCP Timeout 180 s
+20.04.23 10:39:18.123 Zwischenstatus: Vorgang abgebrochen
+20.04.23 10:39:18.124 Zwischenstatus TLV LetzterStatusText: Vorgang abgebrochen 
+20.04.23 10:39:18.126 Receive TCP Timeout 180 s
+20.04.23 10:39:26.274 Transport-Abschluss Fehler: 06 1E 01 6C
+20.04.23 10:39:26.323 Ergebnis = 108 Abbruch durch Timeout oder Abbruchtaste
+20.04.23 10:39:26.323 Autorisierung-Ergebnis: 108
+20.04.23 10:39:26.324 Fehlercode 6C
+20.04.23 10:39:26.325 Fehlermeldung: 6Ch (108) Abbruch durch Timeout oder Abbruchtaste
+20.04.23 10:39:26.335 Autorisierung beendet, schreibe Ergebnis 108
+20.04.23 10:39:26.338 Händlerbeleg_TLV: 
+Abbruch durch Timeout oder Abbruchtaste
+20.04.23 10:39:26.485 Application Exit
+20.04.23 10:39:26.486 Disconnect
+20.04.23 10:39:26.641 EasyRemote ZVTAsync beendet. Aktiv: 0 Ergebnis: 108
+20.04.23 10:40:36.670 EasyRemote: EasyZVT Async
+20.04.23 10:40:36.697 EasyRemote: ZVTStart.exe wurde gestartet
+20.04.23 10:40:37.127 ------------------------------------------------------------------------------------
+20.04.23 10:40:37.127 Programmstart Live Standalone 3.1.4.5
+20.04.23 10:40:37.128 Programmpfad: C:\Users\Chanpreet\Workspace\Einzel-Master\EasyZVT.exe
+20.04.23 10:40:37.128 Eingabedatei: 
+20.04.23 10:40:37.128 Parameterstring: 
+20.04.23 10:40:37.129 Hostname:     DESKTOP-D9GALTQ
+20.04.23 10:40:37.129 Kasse-Nr.:    1
+20.04.23 10:40:37.129 COM:          LAN
+20.04.23 10:40:37.130 ComSpeed:     9600
+20.04.23 10:40:37.131 ComStop:      1
+20.04.23 10:40:37.132 IP:           192.168.0.133
+20.04.23 10:40:37.133 Port:         5577
+20.04.23 10:40:37.134 PortKasse:    4102
+20.04.23 10:40:37.135 Passwort:     000000
+20.04.23 10:40:37.136 Betrag:       0
+20.04.23 10:40:37.137 Cashback:     0
+20.04.23 10:40:37.137 PIN:          0
+20.04.23 10:40:37.138 Kassedruck:   1
+20.04.23 10:40:37.139 Funktion:     1
+20.04.23 10:40:37.140 Protokollpfad:C:\Users\Chanpreet\Workspace\Einzel-Master\protocol
+20.04.23 10:40:37.141 Ausgabepfad:  C:\Users\Chanpreet\Workspace\Einzel-Master\result
+20.04.23 10:40:37.142 Dialog:       1
+20.04.23 10:40:37.143 Typ:          0
+20.04.23 10:40:37.143 Abmelden:     0
+20.04.23 10:40:37.144 Lizenz:       
+20.04.23 10:40:37.144 Original:     1
+20.04.23 10:40:37.145 Diag:         1
+20.04.23 10:40:37.145 Alter:        0
+20.04.23 10:40:37.145 CCV:          
+20.04.23 10:40:37.146 Sperre:       0
+20.04.23 10:40:37.146 Sprache:      DE
+20.04.23 10:40:37.147 Währung:      EUR
+20.04.23 10:40:37.147 Flottenk.-Typ:1
+20.04.23 10:40:37.147 Tip:          0
+20.04.23 10:40:37.148 Trinkgeld:    0
+20.04.23 10:40:37.148 Freitext:     EasyRemote 3.0.6
+20.04.23 10:40:37.149 WWRef:        
+20.04.23 10:40:37.149 WWVerf:       0
+20.04.23 10:40:37.150 Secucard:     0
+20.04.23 10:40:37.150 Warenautomat: 0
+20.04.23 10:40:37.150 Verfahren:    0
+20.04.23 10:40:37.151 Breite:       0
+20.04.23 10:40:37.151 Reconnect:    5000
+20.04.23 10:40:37.152 ReadTimeout:  30
+20.04.23 10:40:37.177 Prüfe Internetverbindung 81.169.145.144
+20.04.23 10:40:37.191 kein Internet: Timeout erreicht 14 ms
+20.04.23 10:40:37.229 ------- Connect async ------------
+20.04.23 10:40:37.252 Initialisiere Verbindung LAN/WLAN auf 192.168.0.133
+20.04.23 10:40:37.274 IP-Info lokal 192.168.0.173(255.255.255.0) Subnetz: 192.168.0.0.
+20.04.23 10:40:37.274 IP-Info Gerät 192.168.0.133(255.255.255.0) Subnetz: 192.168.0.0.
+20.04.23 10:40:37.411 Gerät im gleichen Subnetz. Prüfe MAC 192.168.0.133: 38-EF-E3-3B-A9-E0
+20.04.23 10:40:37.412 Ping 192.168.0.133
+20.04.23 10:40:37.430 Ping ok 16 ms
+20.04.23 10:40:37.431 Verbinde mit Timeout für IP Connect 20 s
+20.04.23 10:40:37.456 Connect erfolgt, prüfe Verbindungsstatus
+20.04.23 10:40:37.457 Terminal erkannt an IP 192.168.0.133 Port 5577
+20.04.23 10:40:37.480 ------- Anmeldung async -------
+20.04.23 10:40:37.513 Receive TCP Timeout 20 s
+20.04.23 10:40:37.906 Receive TCP Timeout 20 s
+20.04.23 10:40:37.909 Transport-Abschluss OK 06 0F erhalten
+20.04.23 10:40:37.956 Datenlänge: 16
+20.04.23 10:40:37.957 29 TID: 68270011
+20.04.23 10:40:37.957 49 Währung: 09 78
+20.04.23 10:40:37.971 0A Erlaubtes TLV-Tag: 06 D3 Blockdruck
+20.04.23 10:40:37.982 --------Statusabfrage sync--------
+20.04.23 10:40:37.983 Receive TCP Timeout 20 s
+20.04.23 10:40:38.625 Receive TCP Timeout 20 s
+20.04.23 10:40:38.686 Transport-Abschluss OK 06 0F erhalten
+20.04.23 10:40:38.687 LLLvar standard
+20.04.23 10:40:38.688 LLL varlen = 17
+20.04.23 10:40:38.689 Statusbyte: 00
+20.04.23 10:40:38.690 Status: BZT bereit
+20.04.23 10:40:38.692 BZT-SW-Version: 150635a M VOB REA
+20.04.23 10:40:38.693 Gerätetyp: unbekannt
+20.04.23 10:40:38.694 BZT bereit
+20.04.23 10:40:38.724 ----- Lizenzcheck -----------
+20.04.23 10:40:38.724 Lizenzfehler für TID 68270011, Lizenz >< ungültig
+20.04.23 10:40:38.738 --------Diagnose async--------
+20.04.23 10:40:38.738 Receive TCP Timeout 20 s
+20.04.23 10:40:39.401 Receive TCP Timeout 180 s
+20.04.23 10:40:39.519 Zwischenstatus: Vorgang wird bearbeitet bitte warten...
+20.04.23 10:40:39.519 Zwischenstatus TLV LetzterStatusText: Vorgang wird bearbeitet 
+20.04.23 10:40:39.520 Receive TCP Timeout 180 s
+20.04.23 10:40:39.625 Zwischenstatus: DFÜ Verbindung wird hergestellt
+20.04.23 10:40:39.626 Zwischenstatus TLV LetzterStatusText: Vorgang wird bearbeitet 
+20.04.23 10:40:39.627 Receive TCP Timeout 180 s
+20.04.23 10:40:40.514 Zwischenstatus: Vorgang wird bearbeitet bitte warten...
+20.04.23 10:40:40.516 Zwischenstatus TLV LetzterStatusText: Vorgang wird bearbeitet 
+20.04.23 10:40:40.517 Receive TCP Timeout 180 s
+20.04.23 10:40:40.549 Zwischenstatus: Vorgang wird bearbeitet bitte warten...
+20.04.23 10:40:40.550 Zwischenstatus TLV LetzterStatusText: Vorgang wird bearbeitet 
+20.04.23 10:40:40.552 Receive TCP Timeout 180 s
+20.04.23 10:40:40.661 Zwischenstatus: Vorgang wird bearbeitet bitte warten...
+20.04.23 10:40:40.662 Zwischenstatus TLV LetzterStatusText: Vorgang wird bearbeitet 
+20.04.23 10:40:40.663 Receive TCP Timeout 180 s
+20.04.23 10:40:40.739 Receive TCP Timeout 180 s
+20.04.23 10:40:40.949 Zwischenstatus: Bitte warten...
+20.04.23 10:40:40.950 Zwischenstatus TLV LetzterStatusText: Netzwerk Diagnose erfolgreich durchgeführt 
+20.04.23 10:40:40.952 Receive TCP Timeout 180 s
+20.04.23 10:40:40.980 Transport-Abschluss OK 06 0F erhalten
+20.04.23 10:40:41.025 Resultat Diagnose: 06 0F 00
+20.04.23 10:40:41.030 Händlerbeleg_TLV: 
+
+
+Khana IT Support & EDV
+
+Robert-Dißmann-Str. 20-2
+65936 Frankfurt
+Tel: 069-95649624
+
+Datum:                      20.04.2023
+Uhrzeit:                  10:40:33 Uhr
+Trace-Nr.                       000033
+
+Diagnose
+
+Terminal-ID                   68270011
+
+Diagnose erfolgreich
+
+
+20.04.23 10:40:41.036 Diagnose: 
+
+
+Khana IT Support & EDV
+
+Robert-Dißmann-Str. 20-2
+65936 Frankfurt
+Tel: 069-95649624
+
+Datum:                      20.04.2023
+Uhrzeit:                  10:40:33 Uhr
+Trace-Nr.                       000033
+
+Diagnose
+
+Terminal-ID                   68270011
+
+Diagnose erfolgreich
+
+
+20.04.23 10:40:41.092 Application Exit
+20.04.23 10:40:41.094 Disconnect
+20.04.23 10:40:41.709 EasyRemote ZVTAsync beendet. Aktiv: 0 Ergebnis: 0
+20.04.23 10:44:48.491 ------------------------------------------------------------------------------------
+20.04.23 10:44:48.492 Programmstart Live Standalone 3.1.4.5
+20.04.23 10:44:48.492 Programmpfad: C:\Users\Chanpreet\Workspace\Einzel-Master\EasyZVT.exe
+20.04.23 10:44:48.492 Eingabedatei: 
+20.04.23 10:44:48.493 Parameterstring: 
+20.04.23 10:44:48.493 Hostname:     DESKTOP-D9GALTQ
+20.04.23 10:44:48.493 Kasse-Nr.:    1
+20.04.23 10:44:48.494 COM:          LAN
+20.04.23 10:44:48.494 ComSpeed:     9600
+20.04.23 10:44:48.495 ComStop:      1
+20.04.23 10:44:48.495 IP:           192.168.0.133
+20.04.23 10:44:48.495 Port:         5577
+20.04.23 10:44:48.496 PortKasse:    4102
+20.04.23 10:44:48.496 Passwort:     000000
+20.04.23 10:44:48.497 Betrag:       0
+20.04.23 10:44:48.497 Cashback:     0
+20.04.23 10:44:48.498 PIN:          0
+20.04.23 10:44:48.498 Kassedruck:   1
+20.04.23 10:44:48.499 Funktion:     0
+20.04.23 10:44:48.499 Protokollpfad:C:\Users\Chanpreet\Workspace\Einzel-Master\protocol
+20.04.23 10:44:48.500 Ausgabepfad:  C:\Users\Chanpreet\Workspace\Einzel-Master\result
+20.04.23 10:44:48.500 Dialog:       1
+20.04.23 10:44:48.501 Typ:          0
+20.04.23 10:44:48.501 Abmelden:     0
+20.04.23 10:44:48.501 Lizenz:       
+20.04.23 10:44:48.502 Original:     1
+20.04.23 10:44:48.502 Diag:         1
+20.04.23 10:44:48.502 Alter:        0
+20.04.23 10:44:48.503 CCV:          
+20.04.23 10:44:48.503 Sperre:       0
+20.04.23 10:44:48.503 Sprache:      DE
+20.04.23 10:44:48.504 Währung:      EUR
+20.04.23 10:44:48.504 Flottenk.-Typ:1
+20.04.23 10:44:48.505 Tip:          0
+20.04.23 10:44:48.505 Trinkgeld:    0
+20.04.23 10:44:48.505 Freitext:     
+20.04.23 10:44:48.506 WWRef:        
+20.04.23 10:44:48.506 WWVerf:       0
+20.04.23 10:44:48.506 Secucard:     0
+20.04.23 10:44:48.506 Warenautomat: 0
+20.04.23 10:44:48.507 Verfahren:    0
+20.04.23 10:44:48.507 Breite:       0
+20.04.23 10:44:48.507 Reconnect:    5000
+20.04.23 10:44:48.508 ReadTimeout:  30
+20.04.23 10:44:48.527 Prüfe Internetverbindung 81.169.145.144
+20.04.23 10:44:48.561 Internet ok 33 ms
+20.04.23 10:44:48.612 ------- Connect async ------------
+20.04.23 10:44:48.635 Initialisiere Verbindung LAN/WLAN auf 192.168.0.133
+20.04.23 10:44:48.658 IP-Info lokal 192.168.0.173(255.255.255.0) Subnetz: 192.168.0.0.
+20.04.23 10:44:48.659 IP-Info Gerät 192.168.0.133(255.255.255.0) Subnetz: 192.168.0.0.
+20.04.23 10:44:48.795 Gerät im gleichen Subnetz. Prüfe MAC 192.168.0.133: 38-EF-E3-3B-A9-E0
+20.04.23 10:44:48.796 Ping 192.168.0.133
+20.04.23 10:44:48.825 Ping ok 27 ms
+20.04.23 10:44:48.826 Verbinde mit Timeout für IP Connect 20 s
+20.04.23 10:44:48.842 Connect erfolgt, prüfe Verbindungsstatus
+20.04.23 10:44:48.844 Terminal erkannt an IP 192.168.0.133 Port 5577
+20.04.23 10:44:48.876 ------- Anmeldung async -------
+20.04.23 10:44:48.908 Receive TCP Timeout 20 s
+20.04.23 10:44:49.312 Receive TCP Timeout 20 s
+20.04.23 10:44:49.325 Transport-Abschluss OK 06 0F erhalten
+20.04.23 10:44:49.369 Datenlänge: 16
+20.04.23 10:44:49.370 29 TID: 68270011
+20.04.23 10:44:49.371 49 Währung: 09 78
+20.04.23 10:44:49.408 0A Erlaubtes TLV-Tag: 06 D3 Blockdruck
+20.04.23 10:44:49.416 --------Statusabfrage sync--------
+20.04.23 10:44:49.417 Receive TCP Timeout 20 s
+20.04.23 10:44:49.532 Receive TCP Timeout 20 s
+20.04.23 10:44:49.576 Transport-Abschluss OK 06 0F erhalten
+20.04.23 10:44:49.576 LLLvar standard
+20.04.23 10:44:49.577 LLL varlen = 17
+20.04.23 10:44:49.578 Statusbyte: 00
+20.04.23 10:44:49.578 Status: BZT bereit
+20.04.23 10:44:49.579 BZT-SW-Version: 150635a M VOB REA
+20.04.23 10:44:49.579 Gerätetyp: unbekannt
+20.04.23 10:44:49.580 BZT bereit
+20.04.23 10:44:49.604 ----- Lizenzcheck -----------
+20.04.23 10:44:49.604 Test-Lizenz Betrag 0
+20.04.23 10:44:49.609 Fehler: Betrag erforderlich
+20.04.23 10:44:49.665 Application Exit
+20.04.23 10:44:49.666 Disconnect

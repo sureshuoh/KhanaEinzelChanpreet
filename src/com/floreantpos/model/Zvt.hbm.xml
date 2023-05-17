@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.floreantpos.model">
+  <class lazy="false" name="com.floreantpos.model.Zvt" table="ZVT">
+    <id column="ID" name="id" type="java.lang.Integer">
+      <generator class="identity"/>
+    </id>
+    
+    <property column="BETRAG" length="60" name="betrag" type="java.lang.String"/>
+    <property column="KARTENNAME" length="60" name="kartenname" type="java.lang.String"/>
+    <property column="TA_NUMMER" length="60" name="tanummer" type="java.lang.String"/>
+    <property column="VU_NUMMER" length="60" name="vunummer" type="java.lang.String"/>
+    <property column="TERMINAL_ID" length="60" name="terminalId" type="java.lang.String"/>
+    <property column="ADDITIONAL_TEXT" length="60" name="additionalText" type="java.lang.String"/>
+    <property column="TRANSACTION_NUMMER" length="60" name="transactionNummer" type="java.lang.String"/>
+    <property column="BELEG_NUMMER" length="60" name="belegnummer" type="java.lang.String"/>
+    <property column="ZAHLUNGS_CODE" length="60" name="zahlungsCode" type="java.lang.String"/>
+    <property column="CARD_TYPE" length="60" name="cardType" type="java.lang.String"/>
+    <property column="CARD_TYPE_ID" length="60" name="cardTypeId" type="java.lang.String"/>
+    <property column="CARD_NAME" length="60" name="cardName" type="java.lang.String"/>
+    <property column="TRANSACTION_STATUS" name="transactionStatus" type="java.lang.Boolean"/>
+    <property column="CUSTOMER_RECIEPT" length="1000" name="customerReciept" type="java.lang.String"/>
+     
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<SalesReport>
+	<restaurantname>Flammkuchen</restaurantname>
+	<addressline1>Bahnhofstr. 28</addressline1>		
+	<addressline2></addressline2>
+	<addressline3>65830 Kriftel</addressline3>		
+	<phone>06192-9794334</phone>
+	<taxnr>0000000000</taxnr>		
+	<id>156</id>
+	<startdate>Sep 13 2015</startdate>		
+	<enddate>Sep 13 2015</enddate>
+	<reporttime>13.9.2015, um 11:36 Uhr</reporttime>		
+	<speisen>20.00</speisen>
+	<speisentax>1.58</speisentax>		
+	<total>20</total>
+	<tax19>1.58</tax19>		
+	<tax7>0</tax7>
+	<cash>20</cash>
+	<cashtax>1.58</cashtax>		
+	<card>0</card>
+	<cardtax>0</cardtax>		
+</SalesReport>

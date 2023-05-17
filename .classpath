@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="config"/>
+	<classpathentry kind="src" path="i18n"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="local-lib/fiscallySDK.jar"/>
+	<classpathentry kind="lib" path="local-lib/RXTXcomm.jar"/>
+	<classpathentry kind="lib" path="local-lib/usb-api-1.0.2.jar"/>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="filters">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="local-lib/zvt13/commons-codec-1.15.jar"/>
+	<classpathentry kind="lib" path="local-lib/zvt13/commons-lang3-3.12.0.jar"/>
+	<classpathentry kind="lib" path="local-lib/zvt13/logback-classic-1.2.10.jar"/>
+	<classpathentry kind="lib" path="local-lib/zvt13/logback-core-1.2.10.jar"/>
+	<classpathentry kind="lib" path="local-lib/zvt13/slf4j-api-1.7.32.jar"/>
+	<classpathentry kind="lib" path="local-lib/zvt13/ZVT13-13.0.411.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
