@@ -2530,8 +2530,7 @@ public class TicketView extends JPanel implements ActionListener, KeyListener, F
 	}
 	// till here
 
-	private boolean isZvt13Payment(double paidAmount, boolean splitPayment) {
-	 	 
+	private boolean isZvt13Payment(double paidAmount, boolean splitPayment) {	 	 
 		  System.out.println("zvt 13");
 	 	if (TerminalConfig.isCardTerminalDisable()) {
 			ZVTCardConfirmationDialog dialog = new ZVTCardConfirmationDialog(ticket.getTotalAmount(),
@@ -2545,13 +2544,10 @@ public class TicketView extends JPanel implements ActionListener, KeyListener, F
 			return true;
 		}
 		 
-
 		if (paidAmount < ticket.getTotalAmount() && !splitPayment) {
 			POSMessageDialog.showError("Eingabe ist kleiner als die Gesamt");
 			return false;
 		} 
-		
-		
 		
 		ZVTResponseObject zvtAuthObj =null;
 		
@@ -2578,8 +2574,7 @@ public class TicketView extends JPanel implements ActionListener, KeyListener, F
 					zvtPay.setTerminalId(zvtAuthObj.getTerminalID());
 					zvtPay.setAdditionalText(zvtAuthObj.getAdditionalText()); 
 					zvtPay.setTransactionStatus(zvtauth.isTransactionStatus());
-					zvtPay.setCustomerReciept(zvtauth.getCustomerReceipt())
-					 ;
+					zvtPay.setCustomerReciept(zvtauth.getCustomerReceipt());
 					
 					ticket.addTozvtData(zvtPay);
 					System.out.println("zvtData added");
@@ -2632,9 +2627,7 @@ public class TicketView extends JPanel implements ActionListener, KeyListener, F
 		try {
 			Double totalAmount = NumberUtil.roundToTwoDigit(NumberUtil.roundToTwoDigit(paidAmount) * 100.00);
 			int totalAmountinCents = totalAmount.intValue();
-
 			System.out.println("Amount in Cents "+totalAmountinCents+" amnt "+totalAmount);
-
 			EasyPayment.zvtExecute(totalAmountinCents);
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -2759,11 +2752,9 @@ public class TicketView extends JPanel implements ActionListener, KeyListener, F
 			}
 		}
 		return false;
-		// till Here
+		
 	}
 
-	 
-	
 	public void doUpdateItem() {// GEN-FIRST:event_doInsertMisc
 		Object selectedObject = ticketViewerTable.getSelected();
         System.out.println("doUpdateItem>");
@@ -2858,9 +2849,7 @@ public class TicketView extends JPanel implements ActionListener, KeyListener, F
 								exx.printStackTrace();
 							}
 						}
-
 					}
-
 				} else {
 					for (MenuItem menuItem : menuItemList) {
 						if (menuItem.getInstock() != null) {
@@ -2931,16 +2920,13 @@ public class TicketView extends JPanel implements ActionListener, KeyListener, F
 	}
 	
 	boolean playContinue = false;
-	public void searchItem() {
-		 
-        	
+	public void searchItem() {		 
 		String temp = tfscanid.getText();		
 		int delimIndex = temp.indexOf('*');
 		String itemId = "";
 		int itemMultiple = 1;
 		if (delimIndex != -1) {
 			try {
-
 				itemMultiple = Integer.parseInt(temp.substring(0, delimIndex));
 				if (itemMultiple > 100) {
 					int option = JOptionPane.showOptionDialog(Application.getPosWindow(), "Wollen sie geht weiter???",

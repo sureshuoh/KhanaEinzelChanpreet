@@ -603,11 +603,11 @@ public class PasswordScreen extends JPanel {
 			} else if (com.floreantpos.POSConstants.LOGIN.equals(command)) {
 				doLogin();
 			} else if (com.floreantpos.POSConstants.EXIT.equals(command)) {
-				Application.getInstance().exitPOS(true);
+				Application.getInstance().exitPOS(false);
 			} else if ("DBCONFIG".equalsIgnoreCase(command)) {
 				DatabaseConfigurationDialog.show(Application.getPosWindow());
 			} else if (com.floreantpos.POSConstants.SHUTDOWN.equals(command)) {
-				Application.getInstance().shutdownPOS();
+				 Application.getInstance().shutdownPOS();
 			} else {
 				String newPass = capturePassword();
 				newPass += command;
